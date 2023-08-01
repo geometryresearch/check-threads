@@ -1,0 +1,13 @@
+{
+  "name": "wasm_detect_minimal",
+  "scripts": {
+    "build": "webpack build ./index.js --mode production -o dist --output-filename index.js && cp index.html dist/"
+  },
+  "dependencies": {
+    "wasm-feature-detect": "^1.5.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
