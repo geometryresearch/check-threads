@@ -1,5 +1,6 @@
 {
   "name": "wasm_detect_minimal",
+  "type": "module",
   "scripts": {
     "build": "webpack build ./index.js --mode production -o dist --output-filename index.js && cp index.html dist/"
   },
